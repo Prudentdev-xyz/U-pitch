@@ -15,5 +15,8 @@
 --color-black-shadr: #1F1F1F;
 --color-Dark-Shade: #141414;
 --color-white: #FFFFFF;
+}
 
+button {
+  @apply cursor-pointer
 }
