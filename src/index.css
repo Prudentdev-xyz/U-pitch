@@ -5,8 +5,7 @@
 @theme {
 --font-inter: 'inter';
 
-#Colours
---color-background: #000000;
+--color-background: #0B0F0A;
 --color-solar-yellow: #F97316;
 --color-pitch-green: #47F518;
 --color-ghost-white: #FFFAFF;
@@ -19,4 +18,8 @@
 
 button {
   @apply cursor-pointer
+}
+
+body {
+  background-color: #0B0F0A;
 }
