@@ -5,20 +5,20 @@ export const links = [
   },
 
   {
-    link: "",
+    link: "/fixtures",
     text: "Fixtures",
   },
 
   {
-    link: "",
+    link: "/standings",
     text: "Standings",
   },
   {
-    link: "",
+    link: "/leaderboards",
     text: "Leaderboards",
   },
   {
-    link: "",
+    link: "/news",
     text: "News",
   },
 ];
