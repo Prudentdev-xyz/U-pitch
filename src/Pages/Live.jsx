@@ -3,7 +3,7 @@ import { HeroLive } from '../layouts/HeroLive'
 
 export const Live = () => {
   return (
-    <div>
+    <div >
         <HeroLive />
     </div>
   )
