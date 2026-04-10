@@ -1,6 +1,7 @@
 import React from "react";
 import HeroBg from "@/assets/HeroBg.svg";
 import { AncientButton } from "../buttons/AncientButton";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 
 export const HeroLive = () => {
   return (
@@ -23,6 +24,13 @@ export const HeroLive = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex py-3 md:py-6 gap-2 px-5 md:px-0">
+        <AncientButton>All</AncientButton>
+        <PrimaryButton>Football</PrimaryButton>
+        <PrimaryButton>Basketball</PrimaryButton>
+        <PrimaryButton>Volleyball</PrimaryButton>
       </div>
     </div>
   );
