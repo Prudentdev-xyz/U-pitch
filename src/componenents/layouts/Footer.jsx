@@ -16,11 +16,20 @@ export const Footer = () => {
           </ul>
           <ul className="text-ghost-white font-normal gap-8 flex justify-center text-center">
             <a href="/">
-              <li>Contact</li>
+              <li>Live</li>
             </a>
-            <li>News</li>
-            <li>Live Scores</li>
-            <li>Fixtures</li>
+            <a href="/fixtures">
+              <li>Fixtures</li>
+            </a>
+            <a href="/standings">
+              <li>Standings</li>
+            </a>
+            <a href="/leaderboards">
+              <li>Leaderboards</li>
+            </a>
+            <a href="/news">
+              <li>News</li>
+            </a>
           </ul>
         </div>
 

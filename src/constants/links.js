@@ -24,7 +24,3 @@ export const links = [
     text: "News",
   },
 ];
-
-export const FooterLinks = [
-  {}
-]
