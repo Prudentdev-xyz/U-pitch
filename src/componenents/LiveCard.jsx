@@ -7,7 +7,7 @@ export const LiveCard = () => {
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
           {/* Live badge */}
-          <div>
+          <div className="self-end">
             <AncientButton>Live 67'</AncientButton>
           </div>
 
@@ -38,7 +38,7 @@ export const LiveCard = () => {
 
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
-          <div>
+          <div className="self-end">
             <AncientButton>Live 67'</AncientButton>
           </div>
 
@@ -66,8 +66,8 @@ export const LiveCard = () => {
 
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
-          <div>
-            <AncientButton>Live 67'</AncientButton>
+          <div className="self-end">
+            <AncientButton>HT</AncientButton>
           </div>
 
           <p className="text-ghost-white font-medium text-sm">Laliga</p>
@@ -94,8 +94,8 @@ export const LiveCard = () => {
 
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
-          <div>
-            <AncientButton>Live 67'</AncientButton>
+          <div className="self-end">
+            <AncientButton>HT</AncientButton>
           </div>
 
           <p className="text-ghost-white font-medium text-sm">Laliga</p>

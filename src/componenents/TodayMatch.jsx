@@ -7,7 +7,7 @@ export const TodayMatch = () => {
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
           {/* Live badge */}
-          <div>
+          <div className="self-end">
             <AncientButton>Live 67'</AncientButton>
           </div>
 
@@ -39,7 +39,7 @@ export const TodayMatch = () => {
       <div className="py-5 px-3.5 md:px-15">
         <div className="relative bg-Dark-Shade p-5 md:p-7 rounded-3xl flex flex-col gap-3">
           {/* Live badge */}
-          <div>
+          <div className="self-end">
             <AncientButton>Live 67'</AncientButton>
           </div>
 
