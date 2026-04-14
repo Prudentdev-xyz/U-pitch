@@ -1,3 +1,5 @@
+import { Header } from "../componenents/layouts/Header";
+
 export const links = [
   {
     link: "/",

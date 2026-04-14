@@ -26,7 +26,7 @@ export const HeroLive = () => {
         </div>
       </div>
 
-      <div className="flex py-3 md:py-6 gap-2 px-5 md:px-0">
+      <div className="flex pt-3 pb-5 md:py-6 gap-2 px-5 md:px-0">
         <AncientButton>All</AncientButton>
         <PrimaryButton>Football</PrimaryButton>
         <PrimaryButton>Basketball</PrimaryButton>
