@@ -26,7 +26,9 @@ export const Footer = () => {
 
         <hr className="border-ghost-white/30 w-full" />
 
-        <p className="text-ghost-white text-center font-normal py-10">© 2026 UPITCH - All rights reserved.</p>
+        <p className="text-ghost-white text-center font-normal py-10">
+          © 2026 UPITCH - All rights reserved.
+        </p>
       </div>
     </div>
   );
