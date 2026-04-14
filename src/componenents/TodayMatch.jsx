@@ -1,5 +1,5 @@
 import React from "react";
-import { AncientButton } from "../buttons/AncientButton";
+import { AncientButton } from "./buttons/AncientButton";
 
 export const TodayMatch = () => {
   return (

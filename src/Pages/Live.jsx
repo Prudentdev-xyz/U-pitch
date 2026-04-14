@@ -1,9 +1,9 @@
 import React from "react";
 import { HeroLive } from "../componenents/layouts/HeroLive";
 import Ellipse from "@/assets/Ellipse.svg";
-import { LiveCard } from "../componenents/layouts/LiveCard";
+import { LiveCard } from "../componenents/LiveCard";
 import { Dot } from "lucide-react";
-import { TodayMatch } from "../componenents/layouts/TodayMatch";
+import { TodayMatch } from "../componenents/TodayMatch";
 
 export const Live = () => {
   return (
