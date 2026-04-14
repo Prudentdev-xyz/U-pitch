@@ -3,6 +3,7 @@ import { HeroLive } from "../componenents/layouts/HeroLive";
 import Ellipse from "@/assets/Ellipse.svg";
 import { LiveCard } from "../componenents/layouts/LiveCard";
 import { Dot } from "lucide-react";
+import { TodayMatch } from "../componenents/layouts/TodayMatch";
 
 export const Live = () => {
   return (
@@ -18,6 +19,9 @@ export const Live = () => {
       <p className="font-semibold text-white text-2xl py-1.5 px-5 flex">
         TODAY`S MATCH
       </p>
+      <div>
+        <TodayMatch />
+      </div>
     </div>
   );
 };
