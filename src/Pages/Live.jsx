@@ -15,6 +15,9 @@ export const Live = () => {
         {" "}
         <LiveCard />{" "}
       </div>
+      <p className="font-semibold text-white text-2xl py-1.5 px-5 flex">
+        TODAY`S MATCH
+      </p>
     </div>
   );
 };
