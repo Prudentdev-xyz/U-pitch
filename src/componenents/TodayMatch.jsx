@@ -1,5 +1,7 @@
 import React from "react";
 import { AncientButton } from "./buttons/AncientButton";
+import RealMadrid from "@/assets/RealMadrid-1.svg";
+import Barcelona from "@/assets/Barcelona-Barca1.svg";
 
 export const TodayMatch = () => {
   return (
@@ -17,11 +19,17 @@ export const TodayMatch = () => {
           {/* Score rows */}
           <div className="flex flex-col gap-1.5 px-1 md:px-4">
             <div className="flex justify-between items-center text-ghost-white">
-              <p>Real Madrid</p>
+              <div className="gap-0 flex items-center">
+                <img src={RealMadrid} alt="RealMadrid" />
+                <p>Real Madrid</p>
+              </div>
               <p>2</p>
             </div>
             <div className="flex justify-between items-center text-ghost-white">
-              <p>Barcelona</p>
+              <div className="gap-0 flex items-center">
+                <img src={Barcelona} alt="Barcelona" />
+                <p>Barcelona</p>
+              </div>
               <p>1</p>
             </div>
           </div>
@@ -49,11 +57,17 @@ export const TodayMatch = () => {
           {/* Score rows */}
           <div className="flex flex-col gap-1.5 px-1 md:px-4">
             <div className="flex justify-between items-center text-ghost-white">
-              <p>Real Madrid</p>
+              <div className="gap-0 flex items-center">
+                <img src={RealMadrid} alt="RealMadrid" />
+                <p>Real Madrid</p>
+              </div>
               <p>2</p>
             </div>
             <div className="flex justify-between items-center text-ghost-white">
-              <p>Barcelona</p>
+              <div className="gap-0 flex items-center">
+                <img src={Barcelona} alt="Barcelona" />
+                <p>Barcelona</p>
+              </div>
               <p>1</p>
             </div>
           </div>
